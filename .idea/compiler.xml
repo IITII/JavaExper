@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JavaLabs" />
+        <module name="p02" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="p02" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

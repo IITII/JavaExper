@@ -31,9 +31,10 @@ public class Server extends Thread {
                 }
                 res[1] = res[0] / numbers.length;
                 for (double i : numbers) {
-                    double t = i - res[2];
+                    double t = i - res[1];
                     res[2] += t * t;
                 }
+                res[2] /= numbers.length;
                 for (double i : res) {
                     output.writeDouble(i);
                 }

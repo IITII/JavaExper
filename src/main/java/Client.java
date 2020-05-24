@@ -61,7 +61,7 @@ public class Client extends Application {
                         outputArea.clear();
                         uncleaned.set(false);
                     }
-                    outputArea.appendText(simpleDateFormat.format(new Date()) + " 输入框不能为空");
+                    outputArea.appendText(simpleDateFormat.format(new Date()) + " 输入框不能为空\n");
                     return;
                 }
                 String[] inputArray = inputText.split("\\s+");
